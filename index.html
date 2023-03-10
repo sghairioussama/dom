@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOUTIQUE OUSSAMA VEENTE EN LIGNE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+   
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="vape4.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="vape2.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="vape3.jpg" style="width:100%">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      
+
+
+	<h1> Mon Panier</h1>
+
+	<div id="cart">
+        <h2>Panier</h2>
+        <ul id="cart-items"></ul>
+        <p>Total : <span id="total-price">0.00</span>€</p>
+        <button id="clear-cart">Vider panier</button>
+        <button id="place-order">Passer commande</button>
+        
+        
+      </div>
+      
+      <div id="store">
+        <h2>Magasin</h2>
+        <ul id="item-list">
+          <li>
+            <h3>E vape</h3>
+            <img src="image 1.avif" alt="E vape" width="15%" >
+            <p>Prix : 10€</p>
+            
+            <button class="add-to-cart" data-name="E vape" data-price="10">Ajouter au panier</button>
+          </li>
+          <li>
+            <h3>Liquide</h3>
+            <img src="image2.jpg" alt="E vape" width="25%" >
+            <p>Prix : 15€</p>
+            <button class="add-to-cart" data-name="Liquide" data-price="15">Ajouter au panier</button>
+          </li>
+          <li>
+            <h3>Meche</h3>
+            <img src="image3.jpg" alt="E vape" width="25%" >
+            <p>Prix : 20€</p>
+            <button class="add-to-cart" data-name="Meche" data-price="20">Ajouter au panier</button>
+          </li>
+        </ul>
+      </div>
+      
+
+      
+
+      <form id="myForm" action="#" method="post">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="subject">Sujet:</label>
+        <input type="text" id="subject" name="subject" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Envoyer</button>
+      </form>
+      <div class="sticky-top">TOP</div>
+
+    <div>
+        <button id="scroll-to-top-button"> TOP </button>
+    </div>
+
+	<script src="main.js"></script>
+  
+</body>
+</html>
