@@ -196,7 +196,7 @@
     cursor: pointer;
 }
 
-#scroll-to-top-button.show {
+#scroll-to-top-button {
     display: block;
 }
 label {
